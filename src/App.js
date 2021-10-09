@@ -1,11 +1,13 @@
 import './App.css';
 import TodoList from "./components/TodoList/TodoList";
 import AddTaskForm from "./components/AddTaskForm/AddTaskForm";
+import FilterTasks from "./components/FilterTasks/FilterTasks";
 
 
-function App() {
+const App = () => {
     return (
         <>
+            <FilterTasks />
             <AddTaskForm/>
             <TodoList/>
         </>

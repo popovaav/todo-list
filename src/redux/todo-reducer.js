@@ -27,6 +27,6 @@ export const todoReducer = (state = initialState, action) => {
     }
 }
 
-export const addTodo = (text) => ({type: ADD_TODO, payload: {id: Math.ceil(Math.random() * 100), text }});
+export const addTodo = (text) => ({type: ADD_TODO, payload: {id: Math.ceil(Math.random() * 100), text}});
 export const deleteTodo = (id) => ({type: DELETE_TODO, id});
 export const toggleTodo = (id) => ({type: TOGGLE_TODO, id});
